@@ -16,6 +16,7 @@ function converter(num) {
     var bin = parseInt(num, 2)
     document.getElementById("res").innerText=bin
 
-    if(isNaN(num)) {
+    if(isNaN(bin)) {
         document.getElementById("res").innerText="0"
+    }
 }
