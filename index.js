@@ -15,4 +15,7 @@ function lettersOnly(input){
 function converter(num) {
     var bin = parseInt(num, 2)
     document.getElementById("res").innerText=bin
+
+    if(isNaN(num)) {
+        document.getElementById("res").innerText="0"
 }
